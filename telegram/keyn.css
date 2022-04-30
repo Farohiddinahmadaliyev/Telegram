@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boshi{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    text-decoration: none;
+    width: 230px;
+    height: auto;
+    color:#8774e1;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px 5px;
+    border: none;
+    background-color: white;
+}
+.button:hover{
+     background-color: #6d6d6e;
+}
